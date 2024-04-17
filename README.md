@@ -19,7 +19,8 @@ Cần: [Termux](https://f-droid.org/repo/com.termux_118.apk), cài `qemu-system-
   bash vmstart
   ```
 
-Còn lại thì chờ nó chạy và húp thôi. Con máy ghẻ Nokia 6.1 Plus của tôi khởi động Alpine Linux cũng mất gần 2 phút và tắt máy ảo mất mọe 1 phút:( \n
+Còn lại thì chờ nó chạy và húp thôi. Con máy ghẻ Nokia 6.1 Plus của tôi khởi động Alpine Linux cũng mất gần 2 phút và tắt máy ảo mất mọe 1 phút:(
+
 Nói chung là tùy máy, khỏe thì chạy nhanh, yếu thì đuối vcl không nên thử làm gì. Nếu kernel của Android đã Root + Hỗ trợ KVM thì còn nhanh hơn nhiều...Đã mở cổng 22 trong máy ảo Alpine Linux chính là cổng 2222 của localhost (127.0.0.1 - Android)
 
 ==> Chỉ dành cho máy CPU có 8 nhân. Đã tối ưu hóa hệ điều hành Alpine Linux nhờ vài cái forum với ChatGPT, sử dụng ảo hóa TCG + Virtio driver để hi vọng là nó nhanh hơn!
