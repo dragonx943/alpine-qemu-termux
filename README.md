@@ -48,4 +48,5 @@ Boot time / Speed depend on your Android device. If your device is Rooted + Andr
 
 ## Đóng góp / Contribute
 Vui lòng đóng góp bằng cách Folk dự án này về acc GitHub của bạn và sửa đổi, sau đó **Pull Request**
+
 Báo cáo sự cố: [Tại đây](https://github.com/dragonx943/alpine-qemu-termux/issues)
