@@ -1,5 +1,6 @@
 # alpine-qemu-termux
 VIE: Chạy Alpine Linux bằng giả lập QEMU trên Android với Termux!
+
 ENG: Run Alpine Linux on Android with Termux/QEMU!
 
 ## How to cài:
