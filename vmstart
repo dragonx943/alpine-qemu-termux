@@ -1,1 +1,1 @@
-qemu-system-x86_64 -machine q35 -m 1024 -smp 6,sockets=6 --accel tcg,thread=multi -netdev user,id=n1,hostfwd=tcp::2222-:22 -device virtio-net,netdev=n1 -nographic -drive file=alpine.qcow2,format=qcow2,if=virtio -display none -serial stdio
+qemu-system-x86_64 -machine q35 -m 1024 -smp 6,sockets=6 --accel tcg,thread=multi -netdev user,id=n1,hostfwd=tcp::2222-:22 -device virtio-net,netdev=n1 -nographic -drive file=alpine.qcow2,format=qcow2,if=virtio -display none
